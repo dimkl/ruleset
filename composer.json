@@ -1,0 +1,13 @@
+{
+    "name": "dimkl/ruleset",
+    "description": "Ruleset implementation",
+    "license": "GNU GPL3",
+    "authors": [
+        {
+            "name": "Dimitris Klouvas",
+            "email": "dimitris.klouvas@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
