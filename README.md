@@ -15,4 +15,5 @@ IN 	-> less or equal than 		-> "[*]"
 	3.1 select ruleType (e.t.c EQ)
 	3.2 set expected input values
 	3.3 set expected output values
-	
+## Integrations 
+* Packagist
