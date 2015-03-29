@@ -1,4 +1,6 @@
-# Δημιουργός κανόνων για φιλτράρισμα ενός χαρακτηριστικού μέσα απο επιλεγμένους κανόνες
+# Γενικές Πληροφορίες
+[![Build Status](https://travis-ci.org/dimkl/ruleset.svg?branch=master)](https://travis-ci.org/dimkl/ruleset)
+Δημιουργός κανόνων για φιλτράρισμα ενός χαρακτηριστικού μέσα απο επιλεγμένους κανόνες
 ## Δημιουργία κανόνων μέσα απο επιλογή λέξεων και εμφάνιση κανόνα σαν πρόταση σε φυσική γλώσσα
 * EQ 	-> equal 					-> "=*"
 * GT 	-> greater than 			-> "*>"
@@ -16,3 +18,4 @@
 	* set expected output values
 ## Integrations 
 * Packagist
+* Travis CI
