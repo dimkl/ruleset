@@ -1,6 +1,8 @@
 <?php
 namespace RuleSet\Rules;
 
+use \RuleSet\Rules\RuleTypeException;
+
 abstract class ARuleType
 {
     protected $data;
@@ -16,8 +18,4 @@ abstract class ARuleType
     public function getName() {
         return strtolower(str_replace('RuleType', '', __CLASS__));
     }
-}
-
-class RuleTypeException extends \Exception
-{
 }

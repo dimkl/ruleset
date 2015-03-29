@@ -2,12 +2,18 @@
     "name": "dimkl/ruleset",
     "description": "Ruleset implementation",
     "license": "GPL-3.0+",
-    "authors": [
-        {
-            "name": "Dimitris Klouvas",
-            "email": "dimitris.klouvas@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Dimitris Klouvas",
+        "email": "dimitris.klouvas@gmail.com"
+    }],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RuleSet\\": "src/"
+        }
+    }
 }

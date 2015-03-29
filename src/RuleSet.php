@@ -1,6 +1,8 @@
 <?php
 namespace RuleSet;
 
+use \RuleSet\Exceptions\RuleSetException;
+
 class RuleSet
 {
     protected $rules = array();
@@ -32,8 +34,8 @@ class RuleSet
         $this->rules[] = new $ruleClass($data, $output);
         return $this;
     }
-}
 
-class RuleSetException extends \Exception
-{
+    public function getRules(){
+    	return $this->rules;
+    }
 }
