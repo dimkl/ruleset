@@ -1,7 +1,10 @@
 {
     "name": "dimkl/ruleset",
     "description": "Ruleset implementation",
-    "license": "GPL-3.0+",
+    "license":  [
+       "LGPL-2.1",
+       "GPL-3.0+"
+    ],
     "authors": [{
         "name": "Dimitris Klouvas",
         "email": "dimitris.klouvas@gmail.com"
