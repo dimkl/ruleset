@@ -1,5 +1,5 @@
 <?php
-namespace RuleSet\Rules;
+namespace RuleSet;
 
 class RuleTypes
 {
