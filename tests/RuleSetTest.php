@@ -1,6 +1,6 @@
 <?php
 use RuleSet\RuleSet;
-use RuleSet\Rules\RuleTypes;
+use RuleSet\RuleTypes;
 
 class RuleSetTest extends PHPUnit_Framework_TestCase 
 {
